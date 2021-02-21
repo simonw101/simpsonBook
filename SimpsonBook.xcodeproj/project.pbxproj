@@ -14,6 +14,8 @@
 		65DA2E1225E2EE9900BB230E /* SimpsonBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2E1025E2EE9900BB230E /* SimpsonBook.xcdatamodeld */; };
 		65DA2E1425E2EEA000BB230E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DA2E1325E2EEA000BB230E /* Assets.xcassets */; };
 		65DA2E1725E2EEA000BB230E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DA2E1525E2EEA000BB230E /* LaunchScreen.storyboard */; };
+		65DA2E2025E2F06F00BB230E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2E1F25E2F06F00BB230E /* DetailsViewController.swift */; };
+		65DA2E2325E2F90700BB230E /* SimpsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2E2225E2F90700BB230E /* SimpsonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		65DA2E1325E2EEA000BB230E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65DA2E1625E2EEA000BB230E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DA2E1825E2EEA000BB230E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DA2E1F25E2F06F00BB230E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		65DA2E2225E2F90700BB230E /* SimpsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				65DA2E1525E2EEA000BB230E /* LaunchScreen.storyboard */,
 				65DA2E1825E2EEA000BB230E /* Info.plist */,
 				65DA2E1025E2EE9900BB230E /* SimpsonBook.xcdatamodeld */,
+				65DA2E1F25E2F06F00BB230E /* DetailsViewController.swift */,
+				65DA2E2225E2F90700BB230E /* SimpsonClass.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			files = (
 				65DA2E1225E2EE9900BB230E /* SimpsonBook.xcdatamodeld in Sources */,
 				65DA2E0C25E2EE9900BB230E /* ViewController.swift in Sources */,
+				65DA2E2325E2F90700BB230E /* SimpsonClass.swift in Sources */,
 				65DA2E0825E2EE9900BB230E /* AppDelegate.swift in Sources */,
 				65DA2E0A25E2EE9900BB230E /* SceneDelegate.swift in Sources */,
+				65DA2E2025E2F06F00BB230E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
